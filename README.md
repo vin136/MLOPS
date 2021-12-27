@@ -12,3 +12,7 @@ Resources:
 
 [Made With ML](https://madewithml.com/courses/mlops/baselines/)
 
+
+## Project
+
+A Recommender system using the ideas from - [NCF](https://arxiv.org/abs/2005.08129)
