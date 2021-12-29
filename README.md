@@ -16,3 +16,7 @@ Resources:
 ## Project
 
 A Recommender system using the ideas from - [NCF](https://arxiv.org/abs/2005.08129)
+
+## Tools
+
+Hydra: Here's a good [tutorial](https://towardsdatascience.com/complete-tutorial-on-how-to-use-hydra-in-machine-learning-projects-1c00efcc5b9b)
