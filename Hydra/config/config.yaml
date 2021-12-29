@@ -1,2 +1,4 @@
 batch_size: 10
+mode: ???
 lr: 1e-4
+epochs: ${batch_size}

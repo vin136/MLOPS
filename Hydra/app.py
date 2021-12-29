@@ -10,6 +10,7 @@ def read_params(cfg : DictConfig) -> None:
     #read params
     print(f"Reading params from the config.yaml")
     print(f"batch size = {cfg.batch_size}")
+    print(f"dynamically set epochs = {cfg.epochs}")
 
 if __name__ == "__main__":
     read_params()

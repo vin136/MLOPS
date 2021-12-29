@@ -1,0 +1,4 @@
+batch_size: 10
+mode: temp
+lr: 0.0001
+epochs: ${batch_size}*10
