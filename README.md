@@ -35,7 +35,8 @@ A Recommender system using the ideas from - [NCF](https://arxiv.org/abs/2005.081
 
 ## Tools
 
-Hydra: Here's a good [tutorial](https://towardsdatascience.com/complete-tutorial-on-how-to-use-hydra-in-machine-learning-projects-1c00efcc5b9b)
+1. Hydra: Here's a good [tutorial](https://towardsdatascience.com/complete-tutorial-on-how-to-use-hydra-in-machine-learning-projects-1c00efcc5b9b)
+
 `Summary`
 
 **Flags**
@@ -60,3 +61,4 @@ Remove a flag
 
 eg:python train.py ~trainer.gpus
 
+2. Pytorch-lightning+Hydra for configuration.
