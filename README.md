@@ -36,3 +36,27 @@ A Recommender system using the ideas from - [NCF](https://arxiv.org/abs/2005.081
 ## Tools
 
 Hydra: Here's a good [tutorial](https://towardsdatascience.com/complete-tutorial-on-how-to-use-hydra-in-machine-learning-projects-1c00efcc5b9b)
+`Summary`
+
+**Flags**
+
+Multirun flag
+
+eg:python main.py lr=1e-3,1e-2 wd=1e-4,1e-2 -m
+
+Print config
+
+eg:python main.py --cfg job
+
+Modify
+
+eg:python train.py data.batch_size=4
+
+Create a flag and set it.
+
+eg:python train.py +trainer.fast_dev_run=True
+
+Remove a flag
+
+eg:python train.py ~trainer.gpus
+
