@@ -14,7 +14,8 @@ Resources:
 
 [Chip-huyen's book](https://huyenchip.com/machine-learning-systems-design/toc.html)
 
-[ML-SYSTEM DESIGN](https://docs.google.com/document/d/1VuofeF5okBATz1F7HRQmOgi5Jc4bmUiHMYjRqwF-29s/edit)
+[ML-SYSTEM DESIGN](https://stanford-cs329s.github.io/2021/syllabus.html)
+Go through the slides and read the attached research papers.
 
 [ML-INTERVIEW'S BOOK](https://huyenchip.com/ml-interviews-book/)
 
