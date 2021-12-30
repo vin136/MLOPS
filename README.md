@@ -12,6 +12,10 @@ Resources:
 
 [Made With ML](https://madewithml.com/courses/mlops/baselines/)
 
+[Chip-huyen's book](https://huyenchip.com/machine-learning-systems-design/toc.html)
+
+[ML-INTERVIEW'S BOOK](https://huyenchip.com/ml-interviews-book/)
+
 
 ## Project
 
