@@ -14,6 +14,8 @@ Resources:
 
 [Chip-huyen's book](https://huyenchip.com/machine-learning-systems-design/toc.html)
 
+[ML-SYSTEM DESIGN](https://docs.google.com/document/d/1VuofeF5okBATz1F7HRQmOgi5Jc4bmUiHMYjRqwF-29s/edit)
+
 [ML-INTERVIEW'S BOOK](https://huyenchip.com/ml-interviews-book/)
 
 Some links from this [reddit-thread](https://www.reddit.com/r/MachineLearning/comments/kayg13/discussion_interview_ml_system_design_prep/)
