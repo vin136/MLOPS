@@ -16,6 +16,11 @@ Resources:
 
 [ML-INTERVIEW'S BOOK](https://huyenchip.com/ml-interviews-book/)
 
+Some links from this [reddit-thread](https://www.reddit.com/r/MachineLearning/comments/kayg13/discussion_interview_ml_system_design_prep/)
+
+## Interview-prep
+[DataScience](https://github.com/adijo/data-science-prep)
+
 
 ## Project
 
