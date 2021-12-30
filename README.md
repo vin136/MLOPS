@@ -26,6 +26,7 @@ Some links from this [reddit-thread](https://www.reddit.com/r/MachineLearning/co
 
 ## Writing Good Research Code
 [GRC](https://goodresearch.dev/index.html)
+
 [reprdl](https://github.com/sscardapane/reprodl2021)
 
 ## Project
