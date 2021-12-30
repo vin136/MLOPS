@@ -1,3 +1,6 @@
+defaults:
+ - override hydra/job_logging: colorlog
+ - override hydra/hydra_logging: colorlog
 batch_size: 10
 mode: ???
 lr: 1e-4
