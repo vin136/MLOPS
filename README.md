@@ -62,3 +62,22 @@ Remove a flag
 eg:python train.py ~trainer.gpus
 
 2. Pytorch-lightning+Hydra for configuration.
+
+For mac M1 users
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+Now change the path, use your `user name`
+```
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/"YOUR USER NAME"/.zprofile
+```
+```
+eval $(/opt/homebrew/bin/brew shellenv)
+brew install openblas
+export OPENBLAS=$(/opt/homebrew/bin/brew --prefix openblas)
+export CFLAGS="-falign-functions=8 ${CFLAGS}"
+# ^ no need to add to .zshrc, just doing this once.
+pip install scikit-learn # ==0.24.1 if you want
+```
