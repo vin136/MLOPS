@@ -39,8 +39,11 @@ A Recommender system using the ideas from - [NCF](https://arxiv.org/abs/2005.081
 2. Pytorch-lightning(For a well structured code-base)
 3. Wand(for hyperparmeter tuning and experment tracking)
 4. Githooks,testing,styling.(Good practices)
+
 Extra: Not really necessary for every research project.
+
 Data-Versioning: DVC
+
 Containerizaiton: Docker
 
 `Summary`
