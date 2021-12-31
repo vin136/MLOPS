@@ -1,5 +1,0 @@
-input_sz: 8
-ll1: 32
-ll2: 16
-optimizer:
-  lr: 0.0003

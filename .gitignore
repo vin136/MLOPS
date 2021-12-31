@@ -8,6 +8,8 @@ __pycache__/
 
 #Exra-folders
 Hydra/outputs
+Pylg/outputs
+Pylg/.DS_Store
 
 # Distribution / packaging
 .Python
