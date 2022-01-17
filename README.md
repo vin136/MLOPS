@@ -1,5 +1,7 @@
 # MLOPS
 
+
+
 [project-ideas](https://docs.google.com/document/d/1wyDSJsunIlheSRXiGCVEnrqYU7RPyvAX2mkAwmMKlMk/edit)
 
 [Distribution-Shift](https://arxiv.org/abs/1711.08534) 
@@ -36,8 +38,36 @@ A Recommender system using the ideas from - [NCF](https://arxiv.org/abs/2005.081
 ## Tools
 
 1. Hydra: Here's a good [tutorial](https://towardsdatascience.com/complete-tutorial-on-how-to-use-hydra-in-machine-learning-projects-1c00efcc5b9b)
+2. Pytorch-lightning(For a well structured code-base)
+3. Wand(for hyperparmeter tuning and experment tracking)
+4. Githooks,testing,styling.(Good practices)
+
+Extra: Not really necessary for every research project.
+
+Data-Versioning: DVC
+
+Containerizaiton: Docker
 
 `Summary`
+
+For mac M1 users to install sklearn.
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+Now change the path, use your `user name`
+```
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/"YOUR USER NAME"/.zprofile
+```
+```
+eval $(/opt/homebrew/bin/brew shellenv)
+brew install openblas
+export OPENBLAS=$(/opt/homebrew/bin/brew --prefix openblas)
+export CFLAGS="-falign-functions=8 ${CFLAGS}"
+# ^ no need to add to .zshrc, just doing this once.
+pip install scikit-learn # ==0.24.1 if you want
+```
 
 **Flags**
 
@@ -63,21 +93,4 @@ eg:python train.py ~trainer.gpus
 
 2. Pytorch-lightning+Hydra for configuration.
 
-For mac M1 users
 
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-```
-Now change the path, use your `user name`
-```
-echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/"YOUR USER NAME"/.zprofile
-```
-```
-eval $(/opt/homebrew/bin/brew shellenv)
-brew install openblas
-export OPENBLAS=$(/opt/homebrew/bin/brew --prefix openblas)
-export CFLAGS="-falign-functions=8 ${CFLAGS}"
-# ^ no need to add to .zshrc, just doing this once.
-pip install scikit-learn # ==0.24.1 if you want
-```
