@@ -10,6 +10,7 @@ __pycache__/
 Hydra/outputs
 Pylg/outputs
 Pylg/.DS_Store
+.DS_Store
 
 # Distribution / packaging
 .Python
